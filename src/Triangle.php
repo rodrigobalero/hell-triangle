@@ -2,8 +2,6 @@
 
 namespace HellTriangle;
 
-use Exception;
-
 class Triangle{
 
 	private $triangle;
