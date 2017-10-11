@@ -12,9 +12,17 @@ class Triangle{
 
 
 	/**
+	*	@return Array $triangle
+	**/
+	public function __toString(){
+		return $triangle;
+	}
+
+
+	/**
 	*	@param Array $triangle
 	**/
-	public function __construct(array $triangle){
+	public function setTriangle(array $triangle){
 
 		$this->validadeTriangle($triangle);
 
@@ -25,7 +33,7 @@ class Triangle{
 
 	/**
 	*	@param Array $triangle
-	*	@return Boolean
+	*	@return $this
 	**/
 	private function validadeTriangle($triangle){
 
@@ -47,9 +55,9 @@ class Triangle{
 
 
 	/**
-	*	@return Int HellTriangle sum
+	*	@return Int $total
 	**/
-	public function triangleSum(){
+	public function getPossibleSum(){
 
 		$index = 0;
 		$total = 0;
