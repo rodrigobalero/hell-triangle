@@ -1,0 +1,16 @@
+{
+    "name": "rodrigobalero/hell-triangle",
+    "description": "Hell Triangle Challenge",
+    "keywords": ["php","hell triangle","challenge"],
+    "homepage": "https://github.com/rodrigobalero/hell-triangle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo Balero",
+            "email": "balero@debugis.me"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    }
+}
